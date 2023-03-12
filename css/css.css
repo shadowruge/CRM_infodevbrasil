@@ -1,0 +1,17 @@
+/* CSS reset */
+*{ 
+    margin:0;
+    padding:0;
+    font-family: Arial,sans-serif;
+  }
+   
+  form{
+    margin:auto;
+    max-width: 400px;
+    background-color:  rgb(190, 228, 190);
+   }
+ 
+   li{
+    list-style-type: none;
+   }
+
