@@ -2,8 +2,8 @@
 /* Credenciais do banco de dados. Supondo que você esteja executando o MySQL
 servidor com configuração padrão (usuário 'root' sem senha) */
 define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'izaias');
-define('DB_PASSWORD', 'paula147');
+define('DB_USERNAME', '');
+define('DB_PASSWORD', '');
 define('DB_NAME', 'CRM_infodevbrasil');
  
 /* Tentativa de conexão com o banco de dados MySQL */
