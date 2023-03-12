@@ -6,7 +6,7 @@
 <img src="https://user-images.githubusercontent.com/20734038/224526300-72d4b6ba-ff7d-461c-8e10-5682e4e7efca.png"/>
 </p>
 
-# Descrição do projeto<br>
+# :mag_right: Descrição do projeto<br>
 
       O CRM (Customer Relationship Management) que estou construindo é uma ferramenta completa
       para gerenciar todas as informações relacionadas aos clientes e serviços da sua empresa. 
@@ -27,7 +27,7 @@
       você poderá aumentar a eficiência, melhorar a satisfação do cliente e aumentar a rentabilidade do seu negócio.
 
 
-# Tecnologias utilizadas
+# :heavy_check_mark: Tecnologias utilizadas
 
 - ``PHP``
 - ``MYSQL/MARIADB``
@@ -40,16 +40,16 @@
     Com esta conta, o usuário pode salvar suas preferências e configurações para personalizar sua experiência no projeto.
      Funcionalidade 2:O usuario concegue visualizar os clientes cadastrados no banco
     
-# Estrutura do banco de dados
+# :bank: Estrutura do banco de dados
 
 <img src="https://user-images.githubusercontent.com/20734038/224528646-43f1e804-642d-4b9d-94d4-a757b1af753f.png">
 
 
-# Autores
+# :headphones: Autores
 
 [<img src="https://user-images.githubusercontent.com/20734038/224526903-0ea9e5aa-cc5a-42d9-818c-4ee65b815ed0.png" width=115><br><sub>izaias de Oliveira Elias</sub>](https://github.com/shadowruge/) 
 
-# Venha fazer parte deste time
+# Venha fazer parte deste time :rainbow::rose::eyeglasses: :lipstick:
 Todos(as) e qia+
 ![Glossário](https://www.natura.com.br/blog/mais-natura/glossario-lgbt-entenda-o-que-e-queer-intersexual-genero-fluido-e-mais?gclid=Cj0KCQiA6rCgBhDVARIsAK1kGPIF8drDMk7gY1IH_3OzZ2R4X2t1Mz6qreUivTBfRQp15jGRH0yXQ98aAmMdEALw_wcB&gclsrc=aw.ds)
 
