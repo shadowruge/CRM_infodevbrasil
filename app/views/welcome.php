@@ -15,38 +15,52 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <meta charset="UTF-8">
     <title>Bem vindo!</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-     
-     body{
-        display: flex;
-        flex-wrap: wrap;
-        font: 14px sans-serif;
-        max-width: 650px;
-        margin: 20px;
-     }   
-
-    </style>
+    
 </head>
+<style>
+    #container{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .my-5{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;  
+
+    }
+</style>
 <body>
-    <h1 class="my-5">Oi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>.<br> Bem vindo CRM infoDEV Brasil.</h1>
+<nav class="navbar" style="background-color: #e3f2fd;">
+  <div class="container-fluid">
+    <a class="navbar-brand">CRM infodevbrasil</a>
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+    <h1 class="my-5">Oi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>.<br> Bem vindo ao CRM infoDEV Brasil.</h1>
+    <div id="container">
     <p>
         <a href="reset-password.php" class="btn btn-warning">Redefina sua senha</a>
         <a href="logout.php" class="btn btn-danger ml-3">Sair da conta</a>
     </p>
     <p> 
-        <a href="cadastroclientes.php" class="btn btn-primary">Cadastro de Clientes</a>
+        <a href="/app/cadastros/cadastroclientes.php" class="btn btn-primary">Cadastro de Clientes</a>
         <a href="viewclientes.php" class="btn btn-primary">Clientes View</a>
         <a href="clientesprovaveis.php" class="btn btn-primary">Clientes provaveis</a>  
         
     </p>
     <p>
-        <a href="ordensdeservicos.php" class="btn btn-primary">Ordens de serviços view</a>    
-        <a href="cadastronotasfiscais.php" class="btn btn-primary">Cadastro de notas</a> 
-        <a href="notasfiscais.php" class="btn btn-primary">Notas View</a> 
+        <a href="/app/views/ordensdeservicos.php" class="btn btn-primary">Ordens de serviços view</a>    
+        <a href="/app/cadastros/cadastronotasfiscais.php" class="btn btn-primary">Cadastro de notas</a> 
+        <a href="/app/views/notasfiscais.php" class="btn btn-primary">Notas View</a> 
     </p>
     <p>
-    <a href="cadastrocolaboradores.php" class="btn btn-primary">Cadastro de colaboradores</a> 
-        <a href="colaboradores.php" class="btn btn-primary">Colaboradores view</a>    
+    <a href="/app/cadastros/cadastrocolaboradores.php" class="btn btn-primary">Cadastro de colaboradores</a> 
+        <a href="/app/views/colaboradores.php" class="btn btn-primary">Colaboradores view</a>    
         <a href="users.php" class="btn btn-primary">Usuarios</a>
     </p>
     <p>
@@ -64,5 +78,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         <a href="servicosandamentos.php" class="btn btn-primary">Serviços em andamento</a>
         <a href="servicosfinalizados.php" class="btn btn-primary">Serviços finalizados</a>
     </p>
+    </div>
 </body>
 </html>

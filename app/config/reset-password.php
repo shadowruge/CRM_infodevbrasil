@@ -8,9 +8,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     exit;
 }
  
-// Incluir arquivo de configuração
-require_once "config.php";
- 
+
 // Defina variáveis e inicialize com valores vazios
 $new_password = $confirm_password = "";
 $new_password_err = $confirm_password_err = "";
@@ -83,6 +81,15 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </style>
 </head>
 <body>
+<nav class="navbar" style="background-color: #e3f2fd;">
+  <div class="container-fluid">
+    <a class="navbar-brand">CRM infodevbrasil</a>
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
     <div class="wrapper">
         <h2>Redefinir senha</h2>
         <p>Por favor, preencha este formulário para redefinir sua senha.</p>

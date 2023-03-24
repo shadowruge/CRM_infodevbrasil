@@ -8,8 +8,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     exit;
 }
 
-// Incluir arquivo de configuração
-require_once "config.php";
 ?>
  
 <!DOCTYPE html>
@@ -23,7 +21,16 @@ require_once "config.php";
     </style>
 </head>
 <body>
-    <h1 class="my-5">Visualisação de serviços.</h1>
+<nav class="navbar" style="background-color: #e3f2fd;">
+  <div class="container-fluid">
+    <a class="navbar-brand">CRM infodevbrasil</a>
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+    <h1 class="my-5">Visualisação de projetos.</h1>
     
 </body>
 </html>

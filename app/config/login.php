@@ -4,7 +4,7 @@ session_start();
 
 // Verifique se o usuário já está logado, em caso afirmativo, redirecione-o para a página de boas-vindas
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: welcome.php");
+    header("location: /app/config/logout.php");
     exit;
 }
  
@@ -62,7 +62,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["username"] = $username;                            
                             
                             // Redirecionar o usuário para a página de boas-vindas
-                            header("location: welcome.php");
+                            header("location: /app/views/welcome.php");
                         } else{
                             // A senha não é válida, exibe uma mensagem de erro genérica
                             $login_err = "Nome de usuário ou senha inválidos.";
@@ -98,6 +98,15 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </style>
 </head>
 <body>
+<nav class="navbar" style="background-color: #e3f2fd;">
+  <div class="container-fluid">
+    <a class="navbar-brand">CRM infodevbrasil</a>
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
     <div class="wrapper">
         <h2>Login</h2>
         <p>Por favor, preencha os campos para fazer o login.</p>
