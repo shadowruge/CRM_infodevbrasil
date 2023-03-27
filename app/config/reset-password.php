@@ -84,11 +84,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <nav class="navbar" style="background-color: #e3f2fd;">
   <div class="container-fluid">
     <a class="navbar-brand">CRM infodevbrasil</a>
-    <form class="d-flex" role="search">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
+    <div class="mail"><a href="mailto:infodevbrasil@gmail.com">E-mail suport</a></div>
   </div>
+ 
 </nav>
     <div class="wrapper">
         <h2>Redefinir senha</h2>
@@ -106,7 +104,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Redefinir">
-                <a class="btn btn-link ml-2" href="welcome.php">Cancelar</a>
+                <a class="btn btn-link ml-2" href="/app/views/welcome.php">Cancelar</a>
             </div>
         </form>
     </div>    

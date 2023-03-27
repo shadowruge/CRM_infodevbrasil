@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '0d55e9f5dd0000c4650bb78380351bc204e35eac',
+    'reference' => '8c832d4ef63680957635841266adaa57f97fe051',
     'name' => 'shadowruge/crm_infodevbrasil',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '0d55e9f5dd0000c4650bb78380351bc204e35eac',
+      'reference' => '8c832d4ef63680957635841266adaa57f97fe051',
     ),
   ),
 );
